@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{8DEAF855-9B64-4363-97F0-10598E26E982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{B5CC2EA3-AC2B-4419-9C02-0AFF13BC1C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{282654F8-BF6A-40C5-8BE7-C6D8C6CD4743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{11DD2720-BE60-4E78-85C9-D94CE0027EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.WebApplication", "HelloWorld.Web\HelloWorld.WebApplication\HelloWorld.WebApplication.csproj", "{A268DC66-F525-403D-9287-F7C20B0783AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.ConsoleApplication", "HelloWorld.Windows\HelloWorld.ConsoleApplication\HelloWorld.ConsoleApplication.csproj", "{5E126B50-9A8B-46CF-A398-954937B041FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Service", "HelloWorld.Service\HelloWorld.Service\HelloWorld.Service.csproj", "{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Service.Tests", "HelloWorld.Service.Tests\HelloWorld.Service.Tests.csproj", "{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Model", "HelloWorld.Model\HelloWorld.Model\HelloWorld.Model.csproj", "{5730C529-39BC-45A1-B4F8-8E60216BB24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A268DC66-F525-403D-9287-F7C20B0783AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A268DC66-F525-403D-9287-F7C20B0783AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A268DC66-F525-403D-9287-F7C20B0783AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A268DC66-F525-403D-9287-F7C20B0783AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E126B50-9A8B-46CF-A398-954937B041FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E126B50-9A8B-46CF-A398-954937B041FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E126B50-9A8B-46CF-A398-954937B041FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E126B50-9A8B-46CF-A398-954937B041FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5730C529-39BC-45A1-B4F8-8E60216BB24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5730C529-39BC-45A1-B4F8-8E60216BB24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5730C529-39BC-45A1-B4F8-8E60216BB24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5730C529-39BC-45A1-B4F8-8E60216BB24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A268DC66-F525-403D-9287-F7C20B0783AC} = {B5CC2EA3-AC2B-4419-9C02-0AFF13BC1C13}
+		{5E126B50-9A8B-46CF-A398-954937B041FC} = {8DEAF855-9B64-4363-97F0-10598E26E982}
+		{E57A67DC-8C56-4750-A7A1-9C8CCD7311D7} = {282654F8-BF6A-40C5-8BE7-C6D8C6CD4743}
+		{FBEF474D-8267-41F7-B92C-68AAF7CD1E0A} = {282654F8-BF6A-40C5-8BE7-C6D8C6CD4743}
+		{5730C529-39BC-45A1-B4F8-8E60216BB24D} = {11DD2720-BE60-4E78-85C9-D94CE0027EF2}
+	EndGlobalSection
+EndGlobal
